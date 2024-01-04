@@ -27,7 +27,8 @@
   width: 500px;
   margin: 0 auto 0;
 }
-.list-item__task, .add-task__input {
+.list-item__task, 
+.add-task__input {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
@@ -39,10 +40,12 @@
   margin: 0;
   padding: 0px;
 }
-.task-list__item, .title {
+.task-list__item, 
+.title {
   list-style: none;
 }
-.input,.btn{
+.input,
+.btn{
   outline: none;
 }
 .btn {
